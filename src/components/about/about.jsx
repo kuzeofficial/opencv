@@ -8,11 +8,11 @@ const About = () => {
                     Cristian
                     <span className="text-primary"> Fonseca</span>
                 </h1>
-                <div className="subheading mb-5">
+                <div className="subheading mb-5 dot">
                     186 Cocal % Sol y Loma · Cuba , Granma , Manzanillo ·  (+5354777898)  ·
                     <a href="mailto:cristian03022680483@gmail.com">cristian03022680483@gmail.com</a>
                 </div>
-                <p className="lead mb-5">I have experience in the development of static and dynamic web applications, with correct integration and scalability.</p>
+                <p className="lead mb-5 dot">I have experience in the development of static and dynamic web applications, with correct integration and scalability.</p>
                 <div className="social-icons">
                         <a className="social-icon" href = "https://github.com/kuzeofficial"><i className="fab fa-github"></i></a>
                         <a className="social-icon" href = "https://twitter.com/cristian_devk"><i className="fab fa-twitter"></i></a>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfileImage from '../../assets/profile.jfif'
-
+import Switch from './switch'
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -15,6 +15,7 @@ const Navbar = () => {
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills"><i className="fas fa-laptop-code" /> Skills</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests"><i className="fas fa-file-alt" /> Interest</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience"><i className="fas fa-chalkboard-teacher" /> Experience</a></li>
+                    <Switch />
                 </ul>
             </div>
         </nav>

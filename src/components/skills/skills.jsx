@@ -18,7 +18,7 @@ const Skills = () => {
                     <li className="list-inline-item"><i className="fab fa-bootstrap" /></li>
                 </ul>
                 <div className="subheading mb-3">Workflow</div>
-                <ul className="fa-ul mb-0">
+                <ul className="fa-ul mb-0 dot">
                     <li>
                         <span className="fa-li"><li className="fas fa-check" /></span>
                         Mobile-First, Responsive Design
