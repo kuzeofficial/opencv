@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Skills = () => {
+const Skills = (props) => {
     return (
         <section className="resume-section" id="skills">
             <div className="resume-section-content">
-                <h2 className="mb-5">Skills</h2>
-                <div className="subheading mb-3">Programming Lenguajes, Frameworks & Tools</div>
+                <h2 className="mb-5">{props.t("skills.title")}</h2>
+                <div className="subheading mb-3">{props.t("skills.subheading")}</div>
                 <ul className="list-inline dev-icons">
                     <li className="list-inline-item"><i className="fab fa-html5" /></li>
                     <li className="list-inline-item"><i className="fab fa-css3-alt" /></li>
@@ -17,23 +17,23 @@ const Skills = () => {
                     <li className="list-inline-item"><i className="fab fa-git" /></li>
                     <li className="list-inline-item"><i className="fab fa-bootstrap" /></li>
                 </ul>
-                <div className="subheading mb-3">Workflow</div>
+                <div className="subheading mb-3">{props.t("skills.subheading1")}</div>
                 <ul className="fa-ul mb-0 dot">
                     <li>
                         <span className="fa-li"><li className="fas fa-check" /></span>
-                        Mobile-First, Responsive Design
+                        {props.t("skills.description1")}
                     </li>
                     <li>
                         <span className="fa-li"><li className="fas fa-check"/></span>
-                       Cross Browser Testing & Debugging
+                       {props.t("skills.description2")}
                     </li>
                     <li>
                         <span className="fa-li"><li className="fas fa-check" /></span>
-                       Cross Functional Teams
+                       {props.t("skills.description3")}
                     </li>
                     <li>
                         <span className="fa-li"><li className="fas fa-check" /></span>
-                       Agile Development & Scrum
+                      {props.t("skills.description4")}
                     </li>
                 </ul>
             </div>

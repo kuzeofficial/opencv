@@ -1,0 +1,41 @@
+{
+    "navbar": {
+        "about-me": "About",
+        "my-skills": "Skills",
+        "interest": "Interest",
+        "experience": "Experience"
+    },
+    "about": {
+        "description": "I have experience in the development of static and dynamic web applications, with correct integration and scalability."
+    },
+    "skills": {
+        "title": "Skills",
+        "subheading": "Programming Lenguajes, Frameworks & Tools",
+        "subheading1": "Workflow",
+        "description1": "Mobile-First, Responsive Design",
+        "description2": "Cross Browser Testing & Debugging",
+        "description3": "Cross Functional Teams",
+        "description4": "Agile Development & Scrum"
+    },
+    "interests": {
+        "title": "Interests",
+        "subheading1": "Apart from being a web developer, I really enjoy cybersecurity, and writing poetry",
+        "subheading2": "When I'm at home most of the time I'm watching series and movies, science fiction genres, other genres. I study the latest technologies from my learning path."
+    },
+    "experience": {
+        "title": "Experience",
+        "job1": {
+            "job1title": "Junior Web Developer",
+            "job1name": "Personal Projects",
+            "job1description": "I have worked on creating a series of personal projects based on increasing my portfolio",
+            "job1date": "January 2021 - Present"
+        },
+        "job2": {
+            "job2title": "QA",
+            "job2name": "Boxitas",
+            "job2description": "A meet platform for doctors and other professions, through paid video calls consultations",
+            "job2date": "December 2020 - January 2021"
+        }
+    }
+    
+}

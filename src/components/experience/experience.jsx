@@ -1,25 +1,25 @@
 import React from 'react'
 
-const Experience = () => {
+const Experience = (props) => {
     return (
         <section className="resume-section" id="experience">
             <div className="resume-section-content">
-                <h2 className="mb-5">Experience</h2>
+                <h2 className="mb-5">{props.t("experience.title")}</h2>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">Junior Web Developer</h3>
-                        <div className="subheading mb-3">Personal Projects</div>
-                        <p>I have worked on creating a series of personal projects based on increasing my portfolio</p>
+                        <h3 className="mb-0">{props.t("experience.job1.job1title")}</h3>
+                        <div className="subheading mb-3">{props.t("experience.job1.job1name")}</div>
+                        <p>{props.t("experience.job1.job1description")}</p>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">January 2021 - Present</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">{props.t("experience.job1.job1date")}</span></div>
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">QA</h3>
-                        <div className="subheading mb-3">Boxitas</div>
-                        <p>A meet platform for doctors and other professions, through paid video calls consultations</p>
+                        <h3 className="mb-0">{props.t("experience.job2.job2title")}</h3>
+                        <div className="subheading mb-3">{props.t("experience.job2.job2name")}</div>
+                        <p>{props.t("experience.job2.job2description")}</p>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary"> December 2020 - January 2021</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">{props.t("experience.job2.job2date")}</span></div>
                 </div>
             </div>
         </section>

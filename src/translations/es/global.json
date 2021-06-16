@@ -1,0 +1,40 @@
+{
+    "navbar": {
+        "about-me": "Sobre Mi",
+        "my-skills": "Habilidades",
+        "interest": "Intereses",
+        "experience": "Experiencia"
+    },
+    "about": {
+        "description": "Tengo experiencia en el desarrollo de aplicaciones web estáticas y dinámicas, con correcta integración y escalabilidad."
+    },
+    "skills": {
+        "title" : "Habilidades",
+        "subheading": "Lenguajes de Programacion, Frameworks y herramientas",
+        "subheading1": "Flujo de Trabajo",
+        "description1": "Diseño responsivo, primero en dispositivos móviles",
+        "description2": "Pruebas y depuración de navegadores cruzados",
+        "description3": "Equipos multifuncionales",
+        "description4": "Desarrollo ágil y Scrum"
+    },
+    "interests": {
+        "title": "Intereses",
+        "subheading1": "Además de ser desarrollador web, disfruto mucho de la ciberseguridad y de escribir poesía.",
+        "subheading2": "Cuando estoy en casa la mayor parte del tiempo veo series y películas, géneros de ciencia ficción, otros géneros. Estudio las últimas tecnologías de mi ruta de aprendizaje."
+    },
+    "experience": {
+        "title": "Experiencia",
+        "job1": {
+            "job1title": "Desarrollador web junior",
+            "job1name": "Proyectos Personales",
+            "job1description": "He trabajado en la creación de una serie de proyectos personales basados ​​en el aumento de mi portafolio.",
+            "job1date": "Enero 2021 - Actualidad"
+        },
+        "job2": {
+            "job2title": "QA",
+            "job2name": "Boxitas",
+            "job2description": "Una plataforma de encuentro para médicos y otras profesiones, a través de consultas de videollamadas pagadas.",
+            "job2date": "Diciembre 2020 - Enero 2021"
+        }
+    }
+}
