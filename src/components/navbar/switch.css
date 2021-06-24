@@ -17,8 +17,8 @@
     align-items: center;
     border-radius: 50px;
     position: relative;
-    padding-top: 4px;
-    padding-left: 5px;
+    padding-top: auto;
+    padding-left: auto;
     height: 26px;
     width: 50px;
     cursor: pointer;
@@ -26,6 +26,7 @@
 @media (max-width: 786px) {
     .label{
         padding-top: 1px ;
+        padding-left: 4px;
     }
 }
 .ball{
